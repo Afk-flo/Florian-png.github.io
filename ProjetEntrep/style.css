@@ -23,15 +23,13 @@ color:#999997;
 
 
 .nav-link {
-  color:#444;
+  color:#141414;
   font-size: 30px;
   text-decoration: none;
 }
 
 .nav-link:hover {
   color:#444;
-  animation-name: menu_hover;
-  animation-duration: 2s;
 }
 
 .btn-title {
@@ -57,17 +55,6 @@ color:#999997;
   box-shadow: 9px 12px 28px -9px rgba(0,0,0,0.4);
 }
 
-
-@keyframes menu_hover {
-
-0% {margin-bottom:2%;
-    margin-top: 2%;}
-50%{margin-bottom:6%;
-    margin-top: 6%;}
-100%{margin-bottom:8%;
-    margin-top: 8%;}
-
-}
 
 /* Partie 2 -> Bloc */ 
 
@@ -123,16 +110,17 @@ h3 {
 .bloc21 {
   border:2px solid black;
   margin-top:20px;
-  height: 250px;
 
 }
+
+
 
 /* Partie 3  - COMPETENCEs  */
 
 .patt {
   color:#000;
-  margin-top: 40px;
-  margin-bottom: 80px;
+  margin-top: 130px;
+  margin-bottom: 120px;
 }
 
 .patt>h1 {
