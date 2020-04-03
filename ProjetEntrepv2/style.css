@@ -271,9 +271,11 @@ color:#d9bf77;
   width: 30%;
 }
 
-input:focus{
+.form-control:focus{
   border-color: green;
-  box-shadow: none;
+  outline: green;
+  box-shadow: 0px 10px 5px -6px #d6d5d2;
+
 }
 
 /*  Fin - Footer */
