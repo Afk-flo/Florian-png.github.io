@@ -183,6 +183,15 @@ color:#d9bf77;
     background-size: cover;
 }
 
+.cor2 {
+  margin-top:220px;
+  height: 500px;
+  background-image: url("images/midle.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 
 /* Partie 4 -- Prix */ 
