@@ -1,0 +1,233 @@
+*, ul {
+  font-family: 'Playfair Display', serif;
+  list-style: none;
+}
+.bodycover {
+  background-image: url("images/black1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  
+}
+
+.title {
+  color : #444;
+  font-size:60px;
+}
+
+.title_color {
+color:#999997;
+}
+
+
+.nav-link {
+  color:#fff;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color:#444;
+  animation-name: menu_hover;
+  animation-duration: 2s;
+}
+
+.btn-title {
+  background-color: transparent;
+  border:1px solid #fff;
+  color:#fff;
+  width: 200px;
+  height: 60px;
+  border-radius: 20px;
+  font-size:20px;
+}
+
+.btn-title:hover {
+  background-color: rgb(0,0,0,0.2);
+  border-color: #fff;
+  box-shadow: 9px 12px 28px -9px rgba(0,0,0,0.4);
+}
+
+
+@keyframes menu_hover {
+
+0% {margin-bottom:2%;
+    margin-top: 2%;}
+50%{margin-bottom:6%;
+    margin-top: 6%;}
+100%{margin-bottom:8%;
+    margin-top: 8%;}
+
+}
+
+/* Partie 2 */ 
+
+.partie2 {
+  height: 700px;
+  background-image: url("images/png2.png");
+  background-repeat: no-repeat;
+  background-size: 120px;
+  background-position: 0% 90% 90% 0%;
+
+}
+
+.bloc1 {
+ 
+  height: 450px;
+  margin-top:80px;
+  background-image: url("images/bloc1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color:#fff;
+}
+
+.bloc2:hover{
+  color:#000;
+  background-color: rgb(255,255,255,0.6);
+}
+
+.bloc2 {
+  border:1px solid black;
+  height: 450px;
+  margin-top:150px;
+  margin-left: -120px;
+  background-color: rgb(0,0,0,0.6);
+  color:#fff;
+}
+
+
+
+/* Les blocks qui seront visible uniquement sur petits écrans */ 
+.bloc11 {
+  border:3px solid black;
+  margin-top:20px;
+  height: 250px;
+  background-image: url("images/bloc1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bloc21 {
+  border:2px solid black;
+  margin-top:20px;
+  height: 250px;
+
+}
+
+/* Partie 3  - COMPETENCE  */
+
+
+/*      */ 
+
+.cor {
+  margin-top:20px;
+  height: 500px;
+  background-image: url("images/midle.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.cor>h1, .cor>p {
+  color:#999997;
+  text-align: center;
+  margin:auto;
+}
+
+/* Partie 4 -- Prix */ 
+
+
+.prix {
+  margin-top: 120px;
+  background-image: url("images/now.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter:grayscale(100%);
+
+}
+
+.card-text{
+  font-size:20px;
+
+}
+
+.prix1 {
+  margin-top: 60px;
+  height: 450px;
+  background-color: rgb(255,255,255,0.95);
+
+}
+
+.prix2 {
+  margin-top:40px;
+  margin-bottom:40px;
+  height: 550px;
+  background-color: rgb(255,255,255,0.96);
+}
+
+.prix3 {
+  margin-top: 60px;
+  height: 450px;
+  background-color: rgb(255,255,255,0.95);
+}
+
+
+.prix1:hover,.prix2:hover,.prix3:hover {
+  background-color: rgb(255, 255, 255,0.99);
+  box-shadow: 9px 12px 28px -9px rgba(0,0,0,0.4);
+
+}
+
+.card-header {
+  font-size: 1.5em;
+}
+
+
+.card-title{
+  font-size:2.5em;
+}
+
+.btn-footer {
+  border:1px solid black;
+  margin-top:20px;
+  background-color:transparent; 
+  color:#000;
+}
+
+.btn-footer:hover{
+  border-color: #000;
+  background-color:#fff;
+  box-shadow: 9px 12px 28px -9px rgba(0,0,0,0.4);
+  color:#000;
+}
+/* Contact */ 
+
+.contact {
+  margin-top: 150px;
+}
+
+.passion>img {
+  width:600px;
+}
+
+
+/*  FIn */
+
+.fin {
+  margin-top:40px;
+  background-color: black;
+  color:#444;
+}
+
+.fa-heart {
+  color: red;
+}
+
+.fin>p{
+  margin-top: auto;
+  margin-bottom: auto;
+}
