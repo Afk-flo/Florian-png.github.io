@@ -21,7 +21,7 @@ color:#999997;
 
 
 .nav-link {
-  color:#fff;
+  color:#444;
   font-size: 30px;
   text-decoration: none;
 }
@@ -35,11 +35,18 @@ color:#999997;
 .btn-title {
   background-color: transparent;
   border:1px solid #fff;
-  color:#fff;
   width: 200px;
   height: 60px;
   border-radius: 20px;
   font-size:20px;
+}
+
+.btn-title>a {
+  color:#fff;
+}
+
+.btn-title>a:hover{
+  text-decoration: none;
 }
 
 .btn-title:hover {
@@ -73,18 +80,13 @@ color:#999997;
 
 .bloc1 {
  
-  height: 450px;
+  height: 480px;
   margin-top:80px;
-  background-image: url("images/bloc1.jpg");
+  background-image: url("images/blocbw.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   color:#fff;
-}
-
-.bloc2:hover{
-  color:#000;
-  background-color: rgb(255,255,255,0.6);
 }
 
 .bloc2 {
@@ -92,10 +94,17 @@ color:#999997;
   height: 450px;
   margin-top:150px;
   margin-left: -120px;
-  background-color: rgb(0,0,0,0.6);
-  color:#fff;
+  background-color: rgb(255,255,255,0.8);
+ color:#000
 }
 
+h3 {
+  text-decoration: underline;
+}
+
+.bw {
+  border-bottom: 1px solid black;
+}
 
 
 /* Les blocks qui seront visible uniquement sur petits écrans */ 
@@ -103,7 +112,7 @@ color:#999997;
   border:3px solid black;
   margin-top:20px;
   height: 250px;
-  background-image: url("images/bloc1.jpg");
+  background-image: url("images/blocbw.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -118,6 +127,36 @@ color:#999997;
 
 /* Partie 3  - COMPETENCE  */
 
+.patt {
+  color:#000;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.patt>h1 {
+  text-transform:uppercase;
+}
+
+.btn-collapse {
+ font-size: 20px;
+ margin-top: 30px;
+}
+
+.collapse {
+  font-size: 17px;
+  text-align: center;
+   margin-top: 30px;
+}
+
+
+.collapse-title {
+  font-size: 22px;
+  text-decoration: underline;
+}
+
+.collapse>i {
+  font-size:20px;
+}
 
 /*      */ 
 
