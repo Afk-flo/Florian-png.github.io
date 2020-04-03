@@ -166,19 +166,21 @@ color:#d9bf77;
 .collapse>i {
   font-size:25px;
 }
-
 .fa-html5, .fa-php, .fa-bullhorn, .fa-search-location {
-  margin-top: 20px;
+  margin-top: 30px;
 }
+
+
 /*  ecart   */ 
 
 .cor {
   margin-top:220px;
   height: 500px;
   background-image: url("images/midle.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 30%;
+   background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
